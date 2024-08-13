@@ -65,7 +65,7 @@
   }
   .animated-background {
     background-size: 500% 500%;
-    animation: animation 30s linear infinite;
+    animation: animation 15s linear infinite;
   }
   @keyframes animation {
     0%,

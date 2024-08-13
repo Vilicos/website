@@ -26,7 +26,7 @@ export function VilicosWorksCard({description,heading, img,step,last,reverse}:IP
       <div className={`shrink-0 basis-1/2 sm:text-left ${reverse ? "sm:order-0 sm:pr-6 md:pr-9":"sm:order-1 sm:pl-5 md:pl-10"}`}>
         <p className="text-sm text-brand-primary font-medium mt-2 sm:mt-0">{step}</p>
         <h4 className="font-bold text-xl sm:text-2xl md:text-[32px] tracking-tight md:mt-2 mb-1 sm:mb-3 md:mb-5 lg:mb-8">{heading}</h4>
-        <p className="text-brand-secondary font-medium text-sm md:text-base">
+        <p className="text-brand-secondary font-medium text-sm md:text-base leading-tight md:leading-normal">
           {description}
         </p>
       </div>
