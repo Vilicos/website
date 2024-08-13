@@ -13,7 +13,7 @@ export function KeyBenefitsCard({ description, heading, img }: IProps) {
         <Image src={img} alt={heading} width={32} height={32} style={{ objectFit: "cover" }} />
       </div>
       <h3 className="font-bold text-xl mt-1 md:mt-3 md:mb-1 lg:mt-5 lg:mb-3">{heading}</h3>
-      <p className="font-medium text-sm text-brand-secondary overflow-hidden tracking-tight">{description}</p>
+      <p className="font-medium text-sm text-brand-secondary overflow-hidden tracking-tight px-3 sm:px-0">{description}</p>
     </article>
   );
 }

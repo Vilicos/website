@@ -11,7 +11,7 @@ type IProps = {
 
 export function VilicosWorksCard({description,heading, img,step,last,reverse}:IProps) {
   return (
-    <article className={`flex flex-col sm:flex-row items-center flex-nowrap bg-brand-card-bg rounded-[20px] sm:h-[280px] md:h-[320px] lg:h-[350px] py-3 sm:py-0 px-2 sm:px-4 md:px-8 lg:px-14 relative ${last && "overflow-hidden"}`}>
+    <article className={`flex flex-col sm:flex-row items-center flex-nowrap bg-brand-card-bg rounded-[20px] sm:h-[280px] md:h-[320px] lg:h-[350px] py-3 sm:py-0 px-6 md:px-8 lg:px-14 relative ${last && "overflow-hidden"} `}>
       <div className={`shrink-0 basis-1/2 ${reverse ? "sm:order-1":"sm:order-0"}`}>
         <div className="relative w-[100px] sm:w-[140px] md:w-[164px] h-[100px] sm:h-[150px] md:h-[170px] lg:h-[200px] overflow-hidden mx-auto">
         <Image src={img} alt={heading} fill style={{ objectFit: "contain" }} />

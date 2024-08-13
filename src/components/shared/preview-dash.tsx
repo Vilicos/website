@@ -7,7 +7,7 @@ import { PreviewTabsTrigger } from "./preview-tabs-trigger";
 export function PreviewDash() {
   return (
     <section className="rounded-[20px] bg-brand-card-bg p-2 sm:p-3 lg:p-4 xl:p-5 h-[700px] lg:h-[858px] mb-16 sm:mb-20 md:mb-28 lg:mb-[132px] mt-16 overflow-y-auto">
-      <Tabs defaultValue="helpdesk" className="w-full h-full overflow-hidden rounded-[20px] relative">
+      <Tabs defaultValue="insights" className="w-full h-full overflow-hidden rounded-[20px] relative">
         <TabsList role="tablist" className="min-w-52 w-full bg-brand-dm-bg rounded-none justify-start p-3 h-11 flex-nowrap overflow-x-auto overflow-y-hidden">
           <Image role="img" src="/bars.svg" alt="Help Desk Page" width={56} height={12} quality={100} style={{ objectFit: "cover" }} className="mr-3" />
           <PreviewTabsTrigger value="helpdesk" title="Vilicos | Help Desk" />
