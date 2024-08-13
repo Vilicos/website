@@ -11,12 +11,12 @@ export function Footer() {
   return (
     <footer className="container mb-10 mt-20">
       <Separator className="bg-brand-fourth" />
-      <div className="flex items-center justify-between mt-8">
-        <Link href="/" title="Vilicos">
-          <Image src="/logo.png" alt="Vilicos" width={142} height={40} quality={100} style={{ objectFit: "cover" }} />
+      <div className="flex items-center justify-center xxs:justify-between mt-8 flex-wrap gap-x-10 gap-y-4">
+        <Link href="/" title="Vilicos" className="inline-block w-[142px] h-10 relative">
+          <Image src="/logo.svg" alt="Vilicos" fill quality={100} style={{ objectFit: "cover" }} />
         </Link>
         <p className="font-medium text-sm text-brand-primary">{`© ${currenYear} Vilicos, Inc.`}</p>
-        <address className="flex items-center space-x-5">
+        <address className="flex items-center space-x-5 xxs:mx-auto xs:mx-0">
           <Link href="mailto:info@vilicos.com" title="Mail" className="flex items-center justify-center bg-brand-fourth rounded-full hover:bg-brand-mail transition-colors size-7">
             <Mail className="size-4 object-cover shrink-0" />
           </Link>

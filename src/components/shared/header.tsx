@@ -3,12 +3,12 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <header className="container fixed inset-0 top-9 overflow-hidden h-[72px] z-10">
-      <div className="bg-brand-fifth/70 h-full px-5 border border-brand-fourth rounded-full flex items-center justify-between hover:bg-brand-fifth/90 transition-colors">
+    <header className="container fixed inset-0 top-9 overflow-hidden h-14 xss:h-[72px] z-10">
+      <div className="bg-brand-fifth/70 h-full px-5 border border-brand-fourth rounded-full flex items-center justify-center xss:justify-between hover:bg-brand-fifth/90 transition-colors">
         <Link href="/" title="Vilicos">
-          <Image src="/logo.png" alt="Vilicos" width={142} height={40} quality={100} style={{ objectFit: "cover" }} />
+          <Image src="/logo.svg" alt="Vilicos" width={142} height={40} unoptimized quality={100} style={{ objectFit: "cover" }} />
         </Link>
-        <nav className="space-x-5 flex items-center">
+        <nav className="space-x-5 hidden xss:items-center xss:flex">
           <Link
             href="/"
             title="Log In"

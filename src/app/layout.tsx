@@ -13,6 +13,7 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "Vilicos - Community Agent",
   description: "Automated Community Support Agent for Web 3",
+  
 };
 
 export default function RootLayout({
