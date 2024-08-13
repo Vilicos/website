@@ -37,7 +37,7 @@ export function Footer() {
             <Xtwitter className="size-3 object-cover shrink-0" />
           </Link>
           <Link
-            href="https://linkedin.com"
+            href="https://linkedin.com/company/vilicos"
             target="_blank"
             title="Linkedin"
             className="bg-brand-fourth rounded-full hover:bg-brand-linkedin transition-colors size-7 flex items-center justify-center"
