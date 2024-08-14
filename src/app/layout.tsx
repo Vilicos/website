@@ -20,7 +20,6 @@ export const metadata: Metadata = {
   creator:"Nijat Hamid",
   publisher:"Orkhan Aslanov",
   referrer:"origin-when-cross-origin",
-  manifest:"https://vilicos.com/metadata/manifest.webmanifest",
   category:'artificial intelligence',
   twitter:{
     card:'summary_large_image',
@@ -57,7 +56,6 @@ export const metadata: Metadata = {
       sizes:'16x16'
     }
   ],
-    
    apple:{url:"/metadata/apple-touch-icon.png",sizes:'180x180'},
    other:{
       rel:'mask-icon',
