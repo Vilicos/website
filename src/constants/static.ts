@@ -41,7 +41,7 @@ export const vilicosWorks =[
   {
     id:0,
     step:"Step 1",
-    heading:"Create Knowledge",
+    heading:"Create Knowledge Base",
     description:"Gather all the information that matters to your community,including websites, documents, and chat history.The accuracy of Vilicos's answers depends on the quality and completeness of the information you provide.",
     img:'/step-1.svg',
     reverse:false,
