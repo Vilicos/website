@@ -12,8 +12,8 @@ export function Footer() {
     <footer className="container mb-10 mt-20">
       <Separator className="bg-brand-fourth" />
       <div className="flex items-center justify-center xxs:justify-between mt-8 flex-wrap gap-x-10 gap-y-4">
-        <Link href="/" title="Vilicos" className="inline-block w-[142px] h-10 relative">
-          <Image src="/logo.png" alt="Vilicos" fill quality={100} unoptimized style={{ objectFit: "cover" }} />
+        <Link href="/" title="Vilicos" className="inline-block max-w-36 shrink-0 overflow-hidden">
+          <img src="/logo.png" alt="Vilicos" className="w-full h-full object-cover" />
         </Link>
         <p className="font-medium text-sm text-brand-primary">{`© ${currenYear} Vilicos, Inc.`}</p>
         <address className="flex items-center space-x-5 xxs:mx-auto xs:mx-0">
