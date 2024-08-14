@@ -11,7 +11,7 @@ type IProps = {
 
 export function VilicosWorksCard({description,heading, img,step,last,reverse}:IProps) {
   return (
-    <article className={`flex flex-col sm:flex-row items-center flex-nowrap bg-brand-card-bg rounded-[20px] sm:h-[280px] md:h-[320px] lg:h-[350px] py-3 sm:py-0 px-6 md:px-8 lg:px-14 relative ${last && "overflow-hidden"} `}>
+    <article className={`flex flex-col sm:flex-row items-center flex-nowrap bg-brand-card-bg rounded-[20px] sm:h-[280px] md:h-[320px] lg:h-[350px] py-4 sm:py-0 px-6 md:px-8 lg:px-14 relative ${last && "overflow-hidden"} `}>
       <div className={`shrink-0 basis-1/2 ${reverse ? "sm:order-1":"sm:order-0"}`}>
         <div className="relative w-[100px] sm:w-[140px] md:w-[164px] h-[100px] sm:h-[150px] md:h-[170px] lg:h-[200px] overflow-hidden mx-auto">
         <Image src={img} alt={heading} fill style={{ objectFit: "contain" }} />
@@ -25,8 +25,8 @@ export function VilicosWorksCard({description,heading, img,step,last,reverse}:IP
       </div>
       <div className={`shrink-0 basis-1/2 sm:text-left ${reverse ? "sm:order-0 sm:pr-6 md:pr-9":"sm:order-1 sm:pl-5 md:pl-10"}`}>
         <p className="text-sm text-brand-primary font-medium mt-2 sm:mt-0">{step}</p>
-        <h3 className="font-bold text-xl sm:text-2xl md:text-[32px] tracking-tight md:mt-2 mb-1 sm:mb-3 md:mb-5 lg:mb-8">{heading}</h3>
-        <p className="text-brand-secondary font-medium text-sm md:text-base leading-tight md:leading-normal">
+        <h3 className="font-bold text-xl sm:text-2xl md:text-[32px] tracking-tight mt-2 mb-2 sm:mb-3 md:mb-5 lg:mb-8">{heading}</h3>
+        <p className="text-brand-secondary font-medium text-sm md:text-base">
           {description}
         </p>
       </div>
