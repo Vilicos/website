@@ -12,7 +12,7 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Vilicos - Community Agent",
+  title: "Vilicos - Community Support Agent for Web 3",
   description: "Automated Community Support Agent for Web 3",
   keywords: ['Community Support', 'Automated Web 3 Agent', 'AI Agent', 'Web 3 Agent', 'AI Web 3 Agent',],
   applicationName:"Vilicos",
