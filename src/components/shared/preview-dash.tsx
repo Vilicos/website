@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { Tabs,TabsList } from "../ui/tabs";
-import helpDeskImg from "../../assets/imgs/help-desk-tab.png";
-import knowledgeImg from "../../assets/imgs/knowledge-tab.png";
-import insightImg from "../../assets/imgs/insight-tab.png";
+import helpDeskImg from "../../assets/imgs/help-desk-tab.webp";
+import knowledgeImg from "../../assets/imgs/knowledge-tab.webp";
+import insightImg from "../../assets/imgs/insight-tab.webp";
 import { PreviewTabsTrigger } from "./preview-tabs-trigger";
 import { PreviewDashContent } from "./preview-dash-content";
 export function PreviewDash() {
