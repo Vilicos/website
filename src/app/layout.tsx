@@ -63,7 +63,8 @@ export const metadata: Metadata = {
       rel:'mask-icon',
       url:'/safari-pinned-tab.svg'
    }
-  }
+  },
+  
 };
 
 export default function RootLayout({
