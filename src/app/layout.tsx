@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   category:'artificial intelligence',
   twitter:{
     card:'summary_large_image',
-    title:'Vilicos - Community Agent',
+    title:'Vilicos - Community Support Agent for Web 3',
     description:"Automated Community Support Agent for Web 3",
     creator:'@vilicos',
     images:{url:'https://vilicos.com/metadata/og-image.png',alt:"Vilicos"},
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     site:"@vilicos",
   },
   openGraph:{
-    title:"Vilicos - Community Agent",
+    title:"Vilicos - Community Support Agent for Web 3",
     description:"Automated Community Support Agent for Web 3",
     url:"https://vilicos.com",
     siteName:"Vilicos",

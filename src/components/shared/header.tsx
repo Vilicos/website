@@ -10,7 +10,7 @@ export function Header() {
         </Link>
         <nav className="space-x-5 flex">
           <Link
-            href="/"
+            href="https://airtable.com/appVsviGO7HWiekFE/shrHPVIUR6QoUezv1"
             title="Log In"
             target="_blank"
             className="text-brand-primary rounded-xl transition-colors border-brand-primary hover:border-brand-secondary hover:text-brand-secondary hover:bg-transparent font-semibold w-20 xs:w-[100px] border text-center text-sm flex h-9 xs:h-10 items-center justify-center flex-nowrap overflow-hidden"
@@ -18,7 +18,7 @@ export function Header() {
             Log In
           </Link>
           <Link
-            href="/"
+            href="https://airtable.com/appVsviGO7HWiekFE/shrHPVIUR6QoUezv1"
             target="_blank"
             title="Sign Up"
             className="bg-brand-primary rounded-xl hover:bg-brand-secondary transition-colors font-semibold w-[100px] h-10 hidden xs:flex items-center justify-center text-sm flex-nowrap "

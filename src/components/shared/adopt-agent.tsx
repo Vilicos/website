@@ -8,7 +8,7 @@ export function AdoptAgent() {
         Increase community satisfaction and engagement with Vilicos through AI-powered support agents.
       </p>
       <Link
-        href="/"
+        href="https://airtable.com/appVsviGO7HWiekFE/shrHPVIUR6QoUezv1"
         target="_blank"
         title="Get Started Now"
         className="bg-brand-primary rounded-[12px] py-3 px-5 md:px-7 lg:py-[14px] lg:px-[34px] font-semibold text-sm inline-block hover:bg-brand-secondary transition-colors"
