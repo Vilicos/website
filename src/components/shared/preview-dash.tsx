@@ -7,7 +7,7 @@ import { PreviewTabsTrigger } from "./preview-tabs-trigger";
 import { PreviewDashContent } from "./preview-dash-content";
 export function PreviewDash() {
   return (
-    <section className="rounded-[20px] bg-brand-card-bg p-2 sm:p-3 lg:p-4 xl:p-5  mb-16 sm:mb-20 md:mb-28 lg:mb-[132px] mt-16">
+    <section className="rounded-[20px] bg-brand-card-bg p-2 sm:p-3 lg:p-4 xl:p-5  mb-16 sm:mb-20 md:mb-28 lg:mb-[132px] mt-[72px]">
       <Tabs defaultValue="insights" className="w-full overflow-hidden rounded-[20px] relative h-[320px] xss:h-[380px] sm:h-[500px] lg:h-[700px] xl:h-[858px]">
         <TabsList role="tablist" className="min-w-52 w-full bg-brand-dm-bg rounded-none justify-start p-3 h-11 flex-nowrap overflow-x-auto overflow-y-hidden">
           <Image role="img" src="/bars.svg" alt="Help Desk Page" width={56} height={12} quality={100} style={{ objectFit: "cover" }} className="mr-3" />
