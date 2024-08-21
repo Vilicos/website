@@ -12,9 +12,9 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Vilicos - Community Support Agent for Web 3",
-  description: "Automated Community Support Agent for Web 3",
-  keywords: ['Community Support', 'Automated Web 3 Agent', 'AI Agent', 'Web 3 Agent', 'AI Web 3 Agent',],
+  title: "Vilicos - Community Support Agent for Web3",
+  description: "Automated Community Support Agent for Web3",
+  keywords: ['Community Support', 'Automated Web3 Agent', 'AI Agent', 'Web3 Agent', 'AI Web3 Agent',],
   applicationName:"Vilicos",
   authors:[{name:"Vilicos Inc.",url:"https://vilicos.com"}],
   creator:"Nijat Hamid",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   category:'artificial intelligence',
   twitter:{
     card:'summary_large_image',
-    title:'Vilicos - Community Support Agent for Web 3',
-    description:"Automated Community Support Agent for Web 3",
+    title:'Vilicos - Community Support Agent for Web3',
+    description:"Automated Community Support Agent for Web3",
     creator:'@vilicos',
     images:{url:'https://vilicos.com/metadata/og-image.png',alt:"Vilicos"},
     siteId:"1814744523056021504",
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     site:"@vilicos",
   },
   openGraph:{
-    title:"Vilicos - Community Support Agent for Web 3",
-    description:"Automated Community Support Agent for Web 3",
+    title:"Vilicos - Community Support Agent for Web3",
+    description:"Automated Community Support Agent for Web3",
     url:"https://vilicos.com",
     siteName:"Vilicos",
     type:'website',
