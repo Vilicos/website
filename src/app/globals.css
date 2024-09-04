@@ -61,7 +61,7 @@
     @apply !scroll-smooth scrollbar-thin scrollbar-thumb-brand-card-bg scrollbar-track-transparent;
   }
   body {
-    @apply bg-brand-bg text-brand-white min-h-dvh selection:bg-brand-primary relative;
+    @apply bg-brand-bg text-brand-white min-h-dvh relative;
   }
   .animated-background {
     background-size: 500% 500%;
